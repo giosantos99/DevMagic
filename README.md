@@ -12,7 +12,9 @@ HTML5, Bootstrap4 e JavaScript;
 
 Pré processador CSS: SASS;
 
-Requisição e consumo de API: fetch
+Requisição e consumo de API: fetch.
+
+#### OBS: Para o funcionamento do encurtador de urls e a visualização da seção top 5, utilizar um servidor como o live server (VSCode) por exemplo.
 
 Link da API utilizada para realizar o encurtador de link: https://www.encurtador.dev/api.html
 
