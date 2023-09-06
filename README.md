@@ -12,7 +12,7 @@ HTML5, Bootstrap4 e JavaScript;
 
 Pré processador CSS: SASS;
 
-Requisição e consumo de API: fetch
+Requisição e consumo de API: fetch.
 
 Link da API utilizada para realizar o encurtador de link: https://www.encurtador.dev/api.html
 
