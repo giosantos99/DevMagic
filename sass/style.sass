@@ -1,0 +1,22 @@
+@import 'variables'
+@import 'header'
+@import 'main'
+@import 'table'
+@import 'hits'
+@import 'footer'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: RobotoLight
+
+.container-layout
+  @media (min-width: 2500px)
+    max-width: 2500px
+    margin: 0 auto
+
+button
+  &:hover
+    @extend %add-contrast
+
