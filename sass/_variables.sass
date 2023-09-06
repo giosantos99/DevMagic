@@ -1,0 +1,24 @@
+$color-accent: #EEE
+$color-red: #AA1423
+$color-grey: #777
+$color-orange: orange
+$color-black: #2A2828
+
+@font-face 
+  font-family: RobotoLight
+  src: url('../fonts/Roboto-Light.ttf')
+
+
+@font-face 
+  font-family: RobotoBlack
+  src: url('../fonts/Roboto-Black.ttf')
+
+.text-red
+  color: $color-red
+
+.text-grey
+  color: $color-grey
+
+%add-contrast
+  filter: contrast(2)
+  transition: .2s

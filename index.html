@@ -1,11 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dev Magic</title>
+  <link rel="shortcut icon" href="assets/logo-icon.png" type="image/x-icon">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js" defer type="module"></script>
+  <title>Encurtador de Links</title>
 </head>
 <body>
+  <div class="container-layout">
+    <header class="d-flex justify-content-center">
+      <img
+        src="assets/logo.png"
+        alt="Logo Dev Magic"
+      >
+    </header>
+    
+    <main class="d-flex align-items-start justify-content-center flex-column">
+      <h1 class="text-center align-self-center">Encurte seus links.</h1>
+      <div class="container d-flex justify-content-center">
+        <p class="text-center col-sm-12 col-md-10 col-lg-10 align-self-center">
+          Links são longos. Encurte os links que você deseja compartilhar, e acompanhe enquanto viajam através da internet.
+        </p>
+      </div>
+      <div class="row container-fluid container-form my-0 mx-auto justify-content-center">
+        <div class="row col-sm-12 col-md-10 container-form-input d-flex align-items-center py-4 m-0 px-0">
+          <a
+            href="#"
+            class="font-weight-bold d-none"
+          >
+            X
+          </a>
+          <input
+            placeholder="Cole o seu link aqui"
+            type="url"
+            name="url"
+            id="url"
+            required
+          >
+        </div>
+        <div class="d-flex align-items-center">
+          <button
+            type="button"
+            class="btn-encurtar p-2 text-uppercase font-weight-bold"
+          >
+            Encurtar
+          </button>
+        </div>
+      </div>
+      <div class="row m-0 justify-content-center container-alert container-fluid">
+        <div
+          class="animate__animated animate__bounce col-sm-12 col-md-4 alert d-none text-center"
+          role="alert"
+        >
+          <!--handle js-->
+        </div>
+      </div>
+    </main>
   
+    <section class="pt-4">
+      <h2 class="text-center text-uppercase pb-2 text-primary font-weight-bold">Top 5</h2>
+        <div class="d-flex justify-content-center px-2 mx-auto tabela-container flex-column">
+          <!--handle js-->
+        </div>
+    </section>
+  
+    <section class="mt-4 pb-2 d-flex flex-column align-items-center justify-content-between container-total-hits">
+      <div class="polygon-container"></div>
+      <h2 class="text-center text-uppercase text-primary">Hits</h2>
+      <h2 class="text-center text-primary text-total-hits bg-white p-2 rounded border border-secondary"><!-- handle js --></h2>
+      <span class="text-grey">Clique em links</span>
+    </section>
+  
+    <footer class="container d-flex align-items-center justify-content-between mx-auto p-3">
+      <figure class="pt-4">
+        <img
+          src="assets/logo-chaordic.png"
+          alt="Logo chaordic"
+        >
+      </figure>
+      <div class="d-flex" style="gap: 0 5px;">
+        <img
+          src="assets/icon-twitter.png"
+          class="logo-social-media"
+          alt="Logo twitter"
+        >
+        <img
+          src="assets/icon-facebook.png"
+          class="logo-social-media"
+          alt="Logo facebook"
+        >
+      </div>
+    </footer>
 </body>
 </html>
