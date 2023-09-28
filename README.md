@@ -18,3 +18,6 @@ Requisição e consumo de API: fetch.
 
 Link da API utilizada para realizar o encurtador de link: https://www.encurtador.dev/api.html
 
+Segue abaixo o preview do projeto:
+
+![gif](https://github.com/giosantos99/EncurtadorDeLinks/assets/143277271/633cb6de-c134-4433-ae17-21cbea3835c6)
